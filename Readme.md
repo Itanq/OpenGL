@@ -1,4 +1,7 @@
 
+## About Include
+> 用于存放自定义的一些头文件..
+
 ## About CreatWindow
 > 用glfw和glew创建一个空的OpenGL窗口
 
@@ -25,3 +28,12 @@
 
 ## About transform
 > 学习了变换矩阵在OpenGL的"动画"中的作用.了解了矩阵对OpenGL变换的意义..
+
+
+## About SpaceCoord
+> 在顶点最终到达屏幕的过程中,必须经历**本地空间**,**世界空间**,**观察空间**,**裁切空间**,**屏幕空间**
+  各个空间的示例图如下
+  ![spacecoord](https://img3.doubanio.com/view/photo/photo/public/p2368187954.jpg)
+  由上可知,当我们想要渲染多个不同的物体的时候,不需要重新创建顶点属性,只需要建立几个不同的模型矩阵,
+  然后,通过模型矩阵的变换,就可以把它放置在世界空间中不同位置,
+  比如SpaceCoord/main.cpp中渲染的十个立方体其实就是通过创建十个模型矩阵来生成的...
