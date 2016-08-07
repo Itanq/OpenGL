@@ -120,6 +120,12 @@
 
 
 ## About DepthTest
-  深度测试的学习
+  深度测试的学习,大多数情况下,深度测试都是不能缺少的有用的技术.
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/DepthTest)
+  
+
+## About Stencil
+  模板测试学习,可以实现一个特别有用的功能,绘制物体的轮廓.
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Stencil)
