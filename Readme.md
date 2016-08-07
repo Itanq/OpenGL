@@ -13,14 +13,18 @@
 
   认识图形渲染的各个阶段,认识着色器
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/triangle)
 
 ## About ManyTriangle
 > 用OpenGL创建多个三角形,主要是对索引缓冲对象EBO的学习..
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/manyTriangle)
 
 ## About shaderUniform
 > 学习了着色器中的uniform变量的知识.进一步认识了OpenGL中各种缓冲对象的作用.
   掌握了顶点数组对象中对顶点数据的多属性处理..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/shaderUniform)
 
 ## About texture
 > 学习了OpenGL中对纹理的处理方法.并且掌握了多纹理单元的处理方法.感受到了纹理
@@ -29,10 +33,12 @@
 
   只需在每次需要用的时候绑定相应的ID,用完之后解绑相应的ID,就不会影响后面的操作..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/texture)
 
 ## About transform
 > 学习了变换矩阵在OpenGL的"动画"中的作用.了解了矩阵对OpenGL变换的意义..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/transform)
 
 ## About SpaceCoord
 > 在顶点最终到达屏幕的过程中,必须经历五个空间:**本地空间**,**世界空间**,**观察空间**,**裁切空间**,**屏幕空间**
@@ -46,6 +52,7 @@
 
   比如SpaceCoord/main.cpp中渲染的十个立方体其实就是通过创建十个模型矩阵来生成的...
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/SpaceCoord)
 
 ## About Camera
 > 物体在各个空间的变换必须经过各个矩阵来实现.如果,我们想让物体绕某个点转动的时候,只有动态的改变视图矩阵的值即可
@@ -63,12 +70,14 @@
 
   3D空间中物体的所有的旋转都可以通过三个**欧拉角**来实现
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Camera)
 
 ## About Color
   学习OpenGL中光源是如何影响物体的颜色的.我们所看到的物体的颜色其实是物体所反射的颜色,并不是物体本身的颜色.
 
   我看所看到的物体的颜色就是物体本身的颜色乘于光源的颜色,也就是它所反射的颜色..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Color)
 
 ## About BasicLighting
   学习OpenGL的基本光照模型.Phong光照模型包括三部分: **环境光**,**漫反射**,**镜面反射**.环境光只要把光源乘以一个因子就可以了.
@@ -77,16 +86,19 @@
 
   镜面反射不仅需要依据光线的方向和物体的法线方向,同样还要考虑观察的方向.主要模拟有光泽物体光照下产生的亮点..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/BasicLighting)
 
 ## About Material
   学习不同的材质对光照的不同影响
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Material)
 
 ## Abount LightMaps
   每个物体的不同部位都拥有不同的材质属性,光照时产生不同程度的效果,为了精确控制一个物体不同部位对diffuse和specular光的反应程度,
 
   可以用diffuse贴图和specular贴图来解决,其实就是给物体加一个纹理,然后通过纹理采样来给每个fragment索引独立颜色值即可..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/LightMaps)
 
 ## About LightCastes
   学习OpenGL中不同光源的光照效果,**平行光**,**点光**,**聚光灯**...
@@ -98,7 +110,16 @@
   聚光灯主要是有一个光照射的方向向量和聚光灯的照射半径,所以,每个fragment与光源的方向的方向向量和聚光灯的方向向量就类似前面的点光了,
   只是fragment和光源反了一下位置而已...
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/LightCastes)
+
 
 ## About MultiLight
   在一个场景中同时设置多个光源,为了方便,我们可以给每个不同的光源设置独立的uniform结构体,独立的计算照明函数即可..
 
+  [详情](https://github.com/Itanq/OpenGL/tree/master/MultiLight)
+
+
+## About DepthTest
+  深度测试的学习
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/DepthTest)
