@@ -136,3 +136,9 @@
   混合需要注意的是渲染的**顺序很重要**
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/Blending)
+
+
+## About Framebuffer
+  帧缓冲就是前面学习的颜色缓冲,深度缓冲,模板缓冲的结合,非常重要,可以实现各种后处理特效.
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Framebuffer)
