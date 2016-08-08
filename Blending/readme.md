@@ -29,5 +29,6 @@ $C_result=C_source*F_source+C_destination*F_destination$
 ## 效果
 草是全透明的,可以直接用discard命令丢弃相应的fragment就可以,不需要开启混合
 ![blending1](https://img3.doubanio.com/view/photo/photo/public/p2372248532.jpg)
+
 玻璃是半透明,需要开启混合,且是多物体混合,所以需要注意顺序.
 ![blending2](https://img3.doubanio.com/view/photo/photo/public/p2372248533.jpg)
