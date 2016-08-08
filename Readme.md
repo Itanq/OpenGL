@@ -129,3 +129,10 @@
   模板测试学习,可以实现一个特别有用的功能,绘制物体的轮廓.
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/Stencil)
+
+
+## Abount Blending
+  混合技术,也叫物体透明技术.在渲染半透明或透明物体的时候非常有用.可以实现现实中玻璃的效果.
+  混合需要注意的是渲染的**顺序很重要**
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Blending)
