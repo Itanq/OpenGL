@@ -22,18 +22,23 @@
 ## 效果
 
 反相效果
+
 ![faxiang](https://img3.doubanio.com/view/photo/photo/public/p2372345201.jpg)
 
 灰度效果
+
 ![huidu](https://img3.doubanio.com/view/photo/photo/public/p2372345202.jpg)
 
 锐化效果
+
 ![kernel](https://img1.doubanio.com/view/photo/photo/public/p2372345199.jpg)
 
 模糊效果
+
 ![blur](https://img3.doubanio.com/view/photo/photo/public/p2372345203.jpg)
 
 边缘效果
+
 ![bianyuan](https://img3.doubanio.com/view/photo/photo/public/p2372345204.jpg)
 
 
