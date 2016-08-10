@@ -42,5 +42,7 @@ void main() {
 
 ## 效果
 
+虽然很简单,但是下面效果是采用`glDrawArrays(GL_POINTS,0,4)`渲染的..
+
 ![g](https://img3.doubanio.com/view/photo/photo/public/p2372710024.jpg)
 

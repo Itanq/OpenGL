@@ -148,3 +148,9 @@
   立体贴图可以实现3D场景的效果,可以创建更加真实的场景效果..
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/CubeMap)
+
+
+## About GeometryShader
+  几何着色器也是一个可选的着色器阶段,但是却很高效也能作出很多效果..
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/GeometryShader);
