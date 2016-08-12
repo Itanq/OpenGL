@@ -154,3 +154,9 @@
   几何着色器也是一个可选的着色器阶段,但是却很高效也能作出很多效果..
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/GeometryShader);
+
+
+## About Anti-aliasing
+  反走样技术可以有效的防止物体边缘产生的锯齿形状.
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Anti-aliasing)
