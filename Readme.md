@@ -160,3 +160,10 @@
   反走样技术可以有效的防止物体边缘产生的锯齿形状.
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/Anti-aliasing)
+
+
+## Abount Advanced-Lighting
+  Phong光照模型对于视线方向和放射方向之间夹角大于90的时候,Specular光没有很多好的效果.Blinn-Phong光照模型正是修复这个问题的光照模型.
+  所以,Blinn-Phong光照模型和Phong光照模型不同地方之后specular计算的方式不同...
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Advanced-Lighting)
