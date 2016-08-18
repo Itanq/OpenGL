@@ -167,3 +167,11 @@
   所以,Blinn-Phong光照模型和Phong光照模型不同地方之后specular计算的方式不同...
 
   [详情](https://github.com/Itanq/OpenGL/tree/master/Advanced-Lighting)
+
+
+## Abount Model
+  使用Assimp库加载3D模型...
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Model)
+
+
