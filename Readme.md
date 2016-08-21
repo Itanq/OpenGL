@@ -175,3 +175,7 @@
   [详情](https://github.com/Itanq/OpenGL/tree/master/Model)
 
 
+## About Instance
+  实例化技术就是一次性渲染成千万个物体的技术,它只需调用一次渲染函数即可..
+
+  [详情](https://github.com/Itanq/OpenGL/tree/master/Instance)
