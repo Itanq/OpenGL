@@ -5,3 +5,9 @@
 `glDrawArraysInstanced(),glDrawElementsInstanced()`配合`gl_InstanceID`可以很多好的解决这个问题.
 
 另外,还可以使用实例数组的方式来一次渲染多个物体.
+
+
+## 效果图
+一次性渲染成千上万的小行星带
+
+![instance](https://img1.doubanio.com/view/photo/photo/public/p2375193707.jpg)
